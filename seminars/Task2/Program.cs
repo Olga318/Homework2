@@ -36,3 +36,25 @@ int f0 = n7%10;
  {Console.WriteLine(" Веедите другое число, отвечающее условиям ");
     
 }
+/*
+Console.Clear();
+
+Console.WriteLine("Введите число ");
+
+int n = int.Parse(Console.ReadLine());
+
+if (n < 100){
+    Console.WriteLine($"Третьей цифры нет");
+
+    return ;
+}
+int numberLength = n.ToString().Length;
+
+int divider =1;
+ for (int i =3 ; i < numberLength; i++){
+    divider *=10;
+ }
+ int num = (n / divider);
+ Console.WriteLine($"Третья цифра  числа {n} -> { num %10}");
+
+ */
